@@ -36,7 +36,7 @@ state = st.selectbox("State of the property:", ['CA', 'FL', 'MI', 'IL', 'TX', 'O
                                                  'NH', 'AR', 'MS', 'MT', 'DE', 'VT', 'RI', 'ME', 'PR', 'HI', 'WV', 'DC',
                                                  'WY', 'SD', 'ND', 'AK', 'GU'])
 type = st.selectbox("Type of the property:", ['SF', 'PU', 'CO', 'MH', 'LH', 'CP'])
-purpose = st.selectbox("Purpose of the loan (Purchase/Refinance/Cashout):", ['P', 'R', 'C'])
+purpose = st.selectbox("Purpose of the loan (Purchase/Refinance/Cashout):", ['P', 'N', 'C'])
 loanterm = st.number_input("Original term of the loan in months:", min_value=1, step=1)
 ServicerName = st.selectbox("Servicer Name:", ['Other servicers     ', 'COUNTRYWIDE         ', 'BANKOFAMERICANA    ',
        'WASHINGTONMUTUALBANK', 'CHASEMANHATTANMTGECO', 'ABNAMROMTGEGROUPINC',
