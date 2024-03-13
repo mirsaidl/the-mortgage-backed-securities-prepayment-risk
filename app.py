@@ -80,8 +80,9 @@ if st.button("Predict"):
             'Duration': [Duration]
         }
         data = pd.DataFrame(data)
-        df_display = data.reset_index(drop=True)
-        st.table(df_display.T)
+        df = data.T
+        df.drop(0, axis=0, inplace=True)
+        st.table(df.T)
         x = pipeline.transform(data)
         y = model.predict(x)
         if y[0] == 1:
