@@ -3,9 +3,6 @@ import pandas as pd
 import numpy as np
 import joblib
 
-import xgboost 
-from xgboost import XGBClassifier
-
 from sklearn.pipeline import Pipeline
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.compose import ColumnTransformer
