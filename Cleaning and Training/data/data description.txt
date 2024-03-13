@@ -1,0 +1,61 @@
+⚛ AIM OF THE PROJECT ⚛
+
+TO PREDICT THE MORTGAGE BACKED SECURITIRES PREPAYMENT RISK USING MACHINE LEARNING MODELS.
+📫 DESCRIPTION OF THE GIVEN DATA 📫
+
+The dataset has 2914952 data points and 26 columns in it.
+
+CreditScore ---- The Credit Score of the Client.
+
+FirstPaymentDate and MaturityDate ---- The formeris the date of the first mortage payment and the later is the date the loan is fully paid off.
+
+FirstTimeHomeBuyer ---- Tells if the Borrower is a first time home buyer or not.
+
+MSA ---- Metropolitan Statistical Area code of the property.
+
+MIP ---- Mortgage Insurance Premium, if applicable.
+
+Units ---- Number of units in the property
+
+Occupancy ---- Occupancy status of the property (e.g., owner-occupied, investment, secondary property etc.).
+
+OCLTV ---- Original Combined Loan-to-Value ratio, which considers all loans on the property.
+
+DTI ---- Debt to Income ratio of the borrower.
+
+OrigUPB ----Original unpaid principal balance of the loan.
+
+LTV ---- Loan To Value ratio at the time of loan origination.
+
+Channel ---- The Origination Channel used by the party that delivered loan to issuer like retail, broker, correspondent etc.
+
+PPM ---- The indicator denoting whether the borrower is subjected to a penalty for a early payment of the principle.
+
+ProductType ---- Type of mortgage product which is FRM (Fixed Rate Mortage).
+
+PropertyState ---- The Abbreviation denoting the location of the property securing the loan.
+
+PropertyType ---- The Classification describing the type of the property.
+
+PostalCode ---- Zip code of the property.
+
+LoanSeqNum ---- Unique loan sequence number for every borrower.
+
+LoanPurpose ---- Purpose of the loan at the time of origination of the loan.
+
+OrigLoanTerm ---- Original term of the loan in months.
+
+NumBorrowers ---- Number of borrowers on the loan.
+
+SellerName ---- Name of the entity that sold the loan to Freddie Mac Company.
+
+ServicerName ---- Name of the entity servicing the loan at the time of origination.
+
+EverDelinquent ---- Indicates if the borrower has ever been delinquent on the loan.
+
+MonthsDelinquent ---- Number of months the borrower has been delinquent, if applicable.
+
+MonthsInRepayment ---- Number of months the borrower has been in repayment.
+
+
+	NEED TO PREDICT EverDelinquent column
