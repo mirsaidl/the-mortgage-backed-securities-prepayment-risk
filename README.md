@@ -1,4 +1,28 @@
 # DELINQUENCY
+
+I have just finished new project about securities.
+
+Linkedin: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
+Github: https://lnkd.in/gmj5ydkk
+
+Steps of project that I did: (more on Github)
+1 Data Analysis
+2 Visualization
+3 Correlation
+4 Feature Engineering
+5 Data Cleaning/Preparing for ML
+6 Pipeline/Train/Test set
+7 Training with algorithms:
+-Deep Learning NN (Tensorflow)
+-Decision Tree
+-Random Forest
+-XGBoost
+-k-NN
+8 Choosing best and suitable model(in my case it is XGBoost)
+9 Deploying with Streamlit
+
+Note: You can find Data Science and ML steps folder called Cleaning and Training on github repository!
+
 LINK: https://the-mortgage-backed-securities-prepayment-risk-lq9e6dlhiayyje6.streamlit.app/
 In this project, the goal is to predict the delinquency status of mortgage-backed securities. Delinquency refers to when a borrower fails to make payments on a debt, such as a mortgage. For mortgage-backed securities, which are investment products backed by a pool of mortgages, predicting delinquency is crucial for investors and financial institutions.
 
