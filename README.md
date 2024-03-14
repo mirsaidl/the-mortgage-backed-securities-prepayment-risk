@@ -1,4 +1,5 @@
 # DELINQUENCY
+LINK: https://the-mortgage-backed-securities-prepayment-risk-lq9e6dlhiayyje6.streamlit.app/
 In this project, the goal is to predict the delinquency status of mortgage-backed securities. Delinquency refers to when a borrower fails to make payments on a debt, such as a mortgage. For mortgage-backed securities, which are investment products backed by a pool of mortgages, predicting delinquency is crucial for investors and financial institutions.
 
 The "Delinquent" column in the dataset serves as the target variable for prediction. It is a binary variable where:
